@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Berlin:20220626T123000
+DTEND;TZID=Europe/Berlin:20220626T153000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20220718T215959Z;BYDAY=SU
+DTSTAMP:20220624T172421Z
+ORGANIZER;CN=aleksa.fd.tutor@gmail.com:mailto:aleksa.fd.tutor@gmail.com
+UID:6j4kpr443276blqn9376dm5jnc@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=dip.damore@yahoo.com;X-NUM-GUESTS=0:mailto:dip.damore@yahoo.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/qgr-bqgv-zhk
+X-MICROSOFT-CDO-OWNERAPPTID:-737985323
+CREATED:20220624T171749Z
+DESCRIPTION:Hi guys\,&nbsp\;<br>Welcome to the Front End Development course
+ !<br><br>Join Zoom Meeting<br><a href="https://zoom.us/j/2853438115?pwd=UWF
+ HbXVvSENkZUliOWlCcS9Ea1EzZz09"><u>https://zoom.us/j/2853438115?pwd=UWFHbXVv
+ SENkZUliOWlCcS9Ea1EzZz09</u></a><br><br>Meeting ID: 285 343 8115<br>Passcod
+ e: 851XKp<br><br>Looking forward to meeting you all!Let’s get coding!<br>&n
+ bsp\;Aleksa Milenkovic\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nDo not edit this section of the des
+ cription.\n\nThis event has a video call.\nJoin: https://meet.google.com/qg
+ r-bqgv-zhk\n\nView your event at https://calendar.google.com/calendar/event
+ ?action=VIEW&eid=Nmo0a3ByNDQzMjc2YmxxbjkzNzZkbTVqbmMgZGlwLmRhbW9yZUB5YWhvby
+ 5jb20&tok=MjUjYWxla3NhLmZkLnR1dG9yQGdtYWlsLmNvbTcwMmY4M2IzMmY1ODQyNTZkM2E5M
+ Tc2YmY1YzIwY2MyMjRiNDYwNDQ&ctz=Europe%2FBelgrade&hl=en&es=1.\n-::~:~::~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20220624T172419Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Frontend development lecture
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
